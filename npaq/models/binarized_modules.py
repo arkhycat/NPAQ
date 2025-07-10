@@ -70,7 +70,7 @@ def Quantize(tensor,quant_mode='det',  params=None, numBits=8):
         quant_fixed(tensor, params)
     return tensor
 
-import torch.nn._functions as tnnf
+#import torch.nn._functions as tnnf
 
 
 class BinarizeLinear(nn.Linear):
